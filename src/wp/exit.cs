@@ -10,9 +10,9 @@ using WPCordovaClassLib.Cordova.JSON;
 
 namespace WPCordovaClassLib.Cordova.Commands
 {
-    public class ExitApp : BaseCommand
+    public class Exit : BaseCommand
     {
-        public void exitApp(string options)
+        public void exit(string options)
         {
             Application.Current.Terminate();
         }

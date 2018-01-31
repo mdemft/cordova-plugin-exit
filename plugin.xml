@@ -22,7 +22,7 @@
         <param name="android-package" value="im.ckk.cordova.exit" />
       </feature>
     </config-file>
-    <source-file src="src/android/exit.java" target-dir="src/im/ckk/cordova/exit" />
+    <source-file src="src/android/Exit.java" target-dir="src/im/ckk/cordova/exit" />
   </platform>
 
   <!-- ios -->

@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 import android.app.Activity;
 
-public class ExitApp extends CordovaPlugin {
+public class Exit extends CordovaPlugin {
     protected void pluginInitialize() {}
 
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {

@@ -4,7 +4,7 @@
         id="cordova-plugin-exit"
         version="1.0.0">
 
-  <name>ExitApp</name>
+  <name>Exit</name>
   <description>Cordova plugin for exiting the app programmatically for Android, iOS and WP</description>
   <license>MIT</license>
   <keywords>cordova,terminate,exit</keywords>
@@ -14,7 +14,7 @@
   <js-module src="www/exit.js" name="exit">
     <clobbers target="cordova.plugins.exit" />
   </js-module>
-  
+
   <!-- android -->
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">

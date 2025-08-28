@@ -24,6 +24,8 @@ public class Exit extends CordovaPlugin {
                 Activity activity = this.cordova.getActivity();
                 activity.finish();
                 callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, 0));
+                System.runFinalizersOnExit(true);
+                System.exit(0);
             } catch (Exception e) {
                 callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, 1));
             }
